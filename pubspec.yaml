@@ -1,7 +1,7 @@
 name: scrollable_image_view
 description: A scrollable image view.
 version: 0.0.1
-author: touyou
+author: touyou <touyou.dev@gmail.com>
 homepage: https://touyou.dev
 
 environment:
