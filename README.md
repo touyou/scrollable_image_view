@@ -1,14 +1,40 @@
 # scrollable_image_view
 
-A new Flutter package project.
+A scrollable image view.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Basic Usage
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Show the image with original size.
+
+```dart
+ScrollableImageView(
+  imagePath: "hoge.png",
+  viewSize: Size(width: 400, height: 400),
+);
+```
+
+### Set image size
+
+Show the image with specified size.
+
+```dart
+ScrollableImageView(
+  imagePath: "hoge.png",
+  viewSize: Size(width: 400, height: 400),
+  imageSize: Size(width: 600, height: 400),
+);
+```
+
+### Set image scale
+
+Show the image scaled by imageScale.
+
+```dart
+ScrollableImageView(
+  imagePath: "hoge.png",
+  viewSize: Size(width: 400, height: 400),
+  imageScale: 3.0,
+);
+```
