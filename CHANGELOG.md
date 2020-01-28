@@ -1,4 +1,4 @@
-## [0.05] - Fix bar duplication bug
+## [0.0.5] - Fix bar duplication bug
 
 * Fix problem about scroll bar
 
