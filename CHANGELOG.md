@@ -1,3 +1,7 @@
+## [0.05] - Fix bar duplication bug
+
+* Fix problem about scroll bar
+
 ## [0.0.2] - Update README
 
 * Add usage description on README

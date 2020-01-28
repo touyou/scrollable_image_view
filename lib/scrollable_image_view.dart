@@ -29,11 +29,9 @@ class _ScrollableImageViewState extends State<ScrollableImageView> {
       child: Scrollbar(
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
-          child: Scrollbar(
-            child: SingleChildScrollView(
-              scrollDirection: Axis.vertical,
-              child: getScaledImage(widget.imageScale, widget.imageSize),
-            ),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.vertical,
+            child: getScaledImage(widget.imageScale, widget.imageSize),
           ),
         ),
       ),
